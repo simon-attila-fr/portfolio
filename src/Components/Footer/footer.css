@@ -1,0 +1,8 @@
+.footer_container {
+    /* background-color: var(--dark-background-color-600); */
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    padding: var(--spacing-900) 0;
+    gap: var(--spacing-400);
+}

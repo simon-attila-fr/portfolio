@@ -1,0 +1,7 @@
+.xpcard_container {
+    display: flex;
+}
+
+.xpcard_container div {
+    width: 50%;
+}

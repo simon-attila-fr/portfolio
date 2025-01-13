@@ -1,0 +1,24 @@
+.page_body_container {
+    margin: 0 10%;
+    min-height: 91vh;
+    background-color: var(--dark-background-color);
+}
+
+.pagecontent_horizontal_card {
+    display: flex;
+}
+
+.pagecontent_horizontal_card_imagecontainer{
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.pagecontent_horizontal_card_imagecontainer img {
+    width: 100%;
+    height: auto;
+}
+
+.pagecontent_horizontal_card_textcontainer {
+    flex: 1;
+    padding: 0 var(--spacing-900);
+}

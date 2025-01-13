@@ -1,0 +1,267 @@
+{
+    "textContent": {
+        "LanguageSelector": {
+            "FR": "Langue",
+            "GB": "Language",
+            "HU": "Nyelv"
+        },
+        "navbar": {
+            "FR": {
+                "introduction": "Introduction",
+                "experiences": "Expériences",
+                "contact": "Contact",
+                "skills": "Compétences"
+            },
+            "GB": {
+                "introduction": "Introduction",
+                "experiences": "Experiences",
+                "contact": "Contact",
+                "skills": "Skills"
+            },
+            "HU": {
+                "introduction": "Bemutatkozás",
+                "experiences": "Szakmai tapasztalat",
+                "contact": "Kapcsolat",
+                "skills": "Kompetenciák"
+            }
+        },
+        "introduction": {
+            "FR": {
+                "h1": "Introduction",
+                "h2": "Bonjour ! :)",
+                "p": [
+                    "Bienvenu sur mon portfolio ! Je m'appelle Attila, je suis développeur web full-stack, traducteur et critique littéraire.",
+                    "Le développement web et la programmation occupe une place importante dans ma vie professionnelle depuis 02/2022. Je maîtrise les langages de programmation JavaScript et SQL.",
+                    "Ce que j'aime dans le développement, c'est la variété des compétences et des activités : du graphisme à la conception, jusqu'au codage et à l'interaction avec les professionnels d'autres métiers. C'est vraiment passionnant. De plus, je peux profiter de mes expériences passées : j'ai fait de la relecture en tant que traducteur et country manager, ce qui est utile pour les revues de code. Grâce à mon parcours universitaire, je suis capable de traiter des textes complexes, comme des documentations. Mon expérience en écriture m'a permis de comprendre l'importance de la reécriture, ce qui se traduit par le refactoring dans le développement."
+                ]
+            },
+            "GB": {
+                "h1": "Introduction",
+                "h2": "Hi there! :)",
+                "p": [
+                    "Welcome to my portfolio site! My name is Attila and I'm a full-stack web developer, literary translator- and critic.",
+                    "I've been into web development and programming since the february of 2022. My languages of predilection are JavaScript and SQL.",
+                    "What I enjoy the most about development is the variety of the skills and the activities: from graphics and design to coding and interaction with professionals in other fields. It's truly amazing! Moreover, I can rely on my precedent professional experiences: as a translator and country manager, I used to do proofreading, which is useful for code reviews. Thanks to my academic background, I'm able to understand complicated texts, such as documentation. My experience with writing taught me the importance of rewriting, which translates into refactoring in development."
+                ]
+            },
+            "HU": {
+                "h1": "Bemutatkozás",
+                "h2": "Szia! :)",
+                "p": [
+                    "Üdvözöllek a portfóliómon! Attila vagyok, full-stack webfejlesztő, fordító és irodalomkritikus.",
+                    "2022 februárja óta foglalkozom webfejlesztéssel és programozással. Legjobban a JavaScript és az SQL nyelveket ismerem."
+                ]
+            }
+        },
+        "experiences": {
+            "FR": {
+                "h1": "Expériences",
+                "h2_1": "Développement web",
+                "summary": "Missions",
+                "voyagexpert": {
+                    "job_title": "Développeur full-stack JavaScript",
+                    "job_company": "Voyagexpert",
+                    "job_contractType": "CDI",
+                    "job_period": "06/03/2023 - 03/01/2025",
+                    "job_localisation": "Nantes, France",
+                    "job_shortDesc": ["Développement d'un système de réservation des voyages d'affaires parmettant à l'utilisateur de rechercher, de réserver et de modifier son voyage d'affaire auprès d'Air France", "Développement d'une application ETL (Extract, Transform, Load) permettant de créer des reportings sur les différents plateaux d'entreprise (statistiques de mails, téléphonie, zendesk)"],
+                    "job_competences": [""]
+                },
+                "opendatasoft": {
+                    "job_title": "Développeur front-end",
+                    "job_company": "Opendatasoft",
+                    "job_contractType": "Stage",
+                    "job_period": "01/08/2022 - 31/01/2023",
+                    "job_localisation": "Nantes, France",
+                    "job_shortDesc": ["Mise en place d'un Storybook pour facilier la documentation des composants React", "Participation à la migration technologique du AngularJS vers React.js de la partie back-office de la plateforme Opendatasoft"],
+                    "job_competences": [""]
+                },
+                "wildcodeschool": {
+                    "job_title": "Développeur web",
+                    "job_company": "Wild Code School",
+                    "job_contractType": "Transition Professionnel",
+                    "job_period": "28/02/2022 - 31/07/2022",
+                    "job_localisation": "Nantes, France",
+                    "job_shortDesc": ["Développement d'un site vitrine 'from scratch' pour une association"],
+                    "job_competences": [""]
+                },
+                "h2_2": "Autres domaines"
+            },
+            "GB": {
+                "h1": "Experiences",
+                "h2_1": "Web Development",
+                "summary": "Projects",
+                "voyagexpert": {
+                    "job_title": "Full-stack JavaScript Web Developer",
+                    "job_company": "Voyagexpert",
+                    "job_contractType": "Full time, permanent",
+                    "job_period": "06/03/2023 - 03/01/2025",
+                    "job_localisation": "Nantes, France",
+                    "job_shortDesc": ["Development a business travel booking system allowing users to search for, book and modify their reservations with AirFrance", "Development of an ETL (Extract, Transform, Load) application enabling users to create reports on different company platforms (email, telephone and zendesk statistics)"],
+                    "job_competences": [""]
+                },
+                "opendatasoft": {
+                    "job_title": "Front-end Engineer",
+                    "job_company": "Opendatasoft",
+                    "job_contractType": "Trainee",
+                    "job_period": "01/08/2022 - 31/01/2023",
+                    "job_localisation": "Nantes, France",
+                    "job_shortDesc": ["Implementing a Storybook to make the documentation of React components easier", "Participating in a technnological transition from AngularJS to React.js of the back-office part of the Opendatasoft platform"],
+                    "job_competences": [""]
+                },
+                "wildcodeschool": {
+                    "job_title": "Web developer",
+                    "job_company": "Wild Code School",
+                    "job_contractType": "Career Transition Project",
+                    "job_period": "28/02/2022 - 31/07/2022",
+                    "job_localisation": "Nantes, France",
+                    "job_shortDesc": ["Development of the website of an NGO from scratch"],
+                    "job_competences": [""]
+                },
+                "h2_2": "Other"
+            },
+            "HU": {
+                "h1": "Szakmai tapasztalat",
+                "h2_1": "Webfejlesztés",
+                "summary": "Projektek",
+                "voyagexpert": {
+                    "job_title": "Full-stack JavaScript webfejlesztő",
+                    "job_company": "Voyagexpert",
+                    "job_contractType": "Határozatlan idejű, teljes munkaidejű",
+                    "job_period": "2023.03.06. - 2025.01.03.",
+                    "job_localisation": "Nantes, Franciaország",
+                    "job_shortDesc": ["Üzleti utak kezelésére szolgáló rendszer kifejlesztése, amely lehetővé teszi a felhasználó számára különböző utak keresését, foglalását és módosítását az AirFrance-nál", "Egy ETL (Extract, Transform, Load) architektúrájú rendszer fejlesztése a cég különböző telephelyeiről szóló beszámolók elkészítésének megkönnyítésére (email, telefon- és zendesk statisztikák)"],
+                    "job_competences": [""]
+                },
+                "opendatasoft": {
+                    "job_title": "Front-end webfejlesztő",
+                    "job_company": "Opendatasoft",
+                    "job_contractType": "Gyakornoki",
+                    "job_period": "2022.08.01. - 2023.01.31",
+                    "job_localisation": "Nantes, Franciaország",
+                    "job_shortDesc": ["Stroybook implementációja a cég React-komponensei dokumentálásának megkönnyítése érdekében", "Részvétel a cég technológiai váltásában, melynek keretében az Opendatasoft platformjának back-office részét AngularJS-ből React.js-re írják át"],
+                    "job_competences": [""]
+                },
+                "wildcodeschool": {
+                    "job_title": "Webfejlesztő",
+                    "job_company": "Wild Code School",
+                    "job_contractType": "Átképzés",
+                    "job_period": "2022.02.28. - 2022.07.31.",
+                    "job_localisation": "Nantes, Franciaország",
+                    "job_shortDesc": ["Egy egyesület honlapjának a fejlesztése nulláról"],
+                    "job_competences": [""]
+                },
+                "h2_2": "Más terület"
+            }
+        },
+        "contact": {
+            "FR": {
+                "h1": "Contact",
+                "profiles": [
+                    {
+                        "logo": "linkedin",
+                        "name": "linkedin",
+                        "text": "N'hésitez pas à me contacter via linkedIn."
+                    }
+                ]
+            },
+            "GB": {
+                "h1": "Contact",
+                "profiles": [
+                    {
+                        "logo": "linkedin",
+                        "name": "linkedin",
+                        "text": "Feel free to reach out in linkedIn."
+                    }
+                ]
+            },
+            "HU": {
+                "h1": "Kapcsolat",
+                "profiles": [
+                    {
+                        "logo": "linkedin",
+                        "name": "linkedin",
+                        "text": "Írj bátran a linkedIn-en, örömmel veszek minden megkeresést!"
+                    }
+                ]
+            }
+        },
+        "skills": {
+            "FR": {
+                "h1": "Compétences",
+                "profiles_title": "Apprendre en autonomie",
+                "profiles_description": "J'apprends et je m'entraîne en autonomie sur des sites dédiés pour approfindir mes compétences existants et pour en acquérir de nouvelles.",
+                "profiles": [
+                    {
+                        "logo": "codingame",
+                        "name": "codingame",
+                        "text": "Mon profile sur codingame"
+                    },
+                    {
+                        "logo": "codewars",
+                        "name": "codewars",
+                        "text": "Mon profile sur codewars"
+                    }
+                ]
+            },
+            "GB": {
+                "h1": "Skills",
+                "profiles_title": "Autonomous learning",
+                "profiles_description": "I learn and I train on my own on dedicated websites to enhance my existing skills and to acquire new ones.",
+                "profiles": [
+                    {
+                        "logo": "codingame",
+                        "name": "codingame",
+                        "text": "My profile on codingame"
+                    },
+                    {
+                        "logo": "codewars",
+                        "name": "codewars",
+                        "text": "My profile on codewars"
+                    }
+                ]
+            },
+            "HU": {
+                "h1": "Kompetenciák",
+                "profiles_title": "Autodidakta tanulás",
+                "profiles_description": "Erre specializálódott oldalakon szoktam tanulni és gyakorolni annak érdekében, hogy meglévő tudásomat elmélyítsem, valamint azért, hogy új dolgokat tanuljak.",
+                "profiles": [
+                    {
+                        "logo": "codingame",
+                        "name": "codingame",
+                        "text": "Profilom a codingame-en"
+                    },
+                    {
+                        "logo": "codewars",
+                        "name": "codewars",
+                        "text": "Profilom a codewars-on"
+                    }
+                ]
+            }
+        },
+        "footer": {
+            "FR": {
+                "copyright": "© Attila Simon",
+                "linkedin": {
+                    "logo": "linkedin",
+                    "name": "linkedin"
+                }
+            }, 
+            "GB": {
+                "copyright": "© Attila Simon",
+                "linkedin": {
+                    "logo": "linkedin",
+                    "name": "linkedin"
+                }
+            },
+            "HU": {
+                "copyright": "© Simon Attila",
+                "linkedin": {
+                    "logo": "linkedin",
+                    "name": "linkedin"
+                }
+            }
+            
+        }
+    }
+}

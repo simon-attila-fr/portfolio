@@ -1,0 +1,8 @@
+.contact_container {
+    padding-top: var(--spacing-900);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-400);
+}

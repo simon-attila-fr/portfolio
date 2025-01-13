@@ -1,0 +1,166 @@
+{
+    "options": {
+        "version": "1.0",
+        "defaultLang": "FR",
+        "langOptions": ["GB", "FR", "HU"],
+        "link_social": {
+            "linkedin": "https://www.linkedin.com/in/attila-simon-237242162/"
+        },
+        "link_coding": {
+            "codewars": "https://www.codewars.com/users/attila-le-hun",
+            "codingame": "https://www.codingame.com/profile/f7473daf95a431491ac233e1cb6a7e827241394"
+        },
+        "skilltypes": {
+            "0": {
+                "skilltype_id": "0",
+                "skilltype_name": {
+                    "GB": "tech_programming language",
+                    "FR": "tech_langage de programmation",
+                    "HU": "tech_programozási nyelv"
+                }
+            },
+            "1": {
+                "skilltype_id": "1",
+                "skilltype_name": {
+                    "GB": "tech_back-end",
+                    "FR": "tech_backend",
+                    "HU": "tech_back-end"
+                }
+            },
+            "2": {
+                "skilltype_id": "2",
+                "skilltype_name": {
+                    "GB": "tech_front-end",
+                    "FR": "tech_frontend",
+                    "HU": "tech_front-end"
+                }
+            },
+            "3": {
+                "skilltype_id": "3",
+                "skilltype_name": {
+                    "GB": "soft_soft skills",
+                    "FR": "soft_savoir être",
+                    "HU": "soft_puha faktorok"
+                }
+            },
+            "4": {
+                "skilltype_id": "4",
+                "skilltype_name": {
+                    "GB": "tech_versionning",
+                    "FR": "tech_versionning",
+                    "HU": "tech_verziókövetés"
+                }
+            }
+        },
+        "skills": {
+            "0": {
+                "skill_id": "0",
+                "skill_name": {
+                    "GB": "JavaScript",
+                    "FR": "JavaScript",
+                    "HU": "JavaScript"
+                },
+                "skill_type": "0"
+            },
+            "1": {
+                "skill_id": "1",
+                "skill_name": {
+                    "GB": "React.Js",
+                    "FR": "React.Js",
+                    "HU": "React.Js"
+                },
+                "skill_type": "2"
+            },
+            "2": {
+                "skill_id": "2",
+                "skill_name": {
+                    "GB": "figma",
+                    "FR": "figma",
+                    "HU": "figma"
+                },
+                "skill_type": "2"
+            },
+            "3": {
+                "skill_id": "3",
+                "skill_name": {
+                    "GB": "node.js",
+                    "FR": "node.js",
+                    "HU": "node.js"
+                },
+                "skill_type": "1"
+            },
+            "4": {
+                "skill_id": "4",
+                "skill_name": {
+                    "GB": "Express.Js",
+                    "FR": "Express.Js",
+                    "HU": "Express.Js"
+                },
+                "skill_type": "1"
+            },
+            "5": {
+                "skill_id": "5",
+                "skill_name": {
+                    "GB": "SQL",
+                    "FR": "SQL",
+                    "HU": "SQL"
+                },
+                "skill_type": "0"
+            },
+            "6": {
+                "skill_id": "6",
+                "skill_name": {
+                    "GB": "PostgreSQL",
+                    "FR": "PostgreSQL",
+                    "HU": "PostgreSQL"
+                },
+                "skill_type": "1"
+            },
+            "7": {
+                "skill_id": "7",
+                "skill_name": {
+                    "GB": "MySQL",
+                    "FR": "MySQL",
+                    "HU": "MySQL"
+                },
+                "skill_type": "1"
+            },
+            "8": {
+                "skill_id": "8",
+                "skill_name": {
+                    "GB": "Python",
+                    "FR": "Python",
+                    "HU": "Python"
+                },
+                "skill_type": "0"
+            },
+            "9": {
+                "skill_id": "9",
+                "skill_name": {
+                    "GB": "Git",
+                    "FR": "Git",
+                    "HU": "Git"
+                },
+                "skill_type": "4"
+            },
+            "10": {
+                "skill_id": "10",
+                "skill_name": {
+                    "GB": "Teamworking",
+                    "FR": "Travail en équipe",
+                    "HU": "Csapatmunka"
+                },
+                "skill_type": "3"
+            },
+            "11": {
+                "skill_id": "11",
+                "skill_name": {
+                    "GB": "Curiosity and taste for learning",
+                    "FR": "Curiosité et goût pour l'apprentissage",
+                    "HU": "Kíváncsiság és tanulni vágyás"
+                },
+                "skill_type": "3"
+            }
+        }
+    }
+}

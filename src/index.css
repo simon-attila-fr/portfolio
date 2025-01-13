@@ -3,36 +3,66 @@
   line-height: 1.5;
   font-weight: 400;
 
+  /* Colors */
+  --dark-color-100: rgba(255, 255, 255, 0.87);
+  --dark-background-color: #242424;
+  --dark-background-color-600: #181818;
+
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* color: rgba(255, 255, 255, 0.87); */
+  color: var(--dark-color-100);
+  /* background-color: #242424; */
+  background-image: url("/space.jpg");
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* SPACING */
+  --spacing-100: 1px;
+  --spacing-200: 2px;
+  --spacing-300: 4px;
+  --spacing-400: 8px;
+  --spacing-500: 12px;
+  --spacing-600: 20px;
+  --spacing-800: 25px;
+  --spacing-900: 30px;
 }
 
 a {
+  color: rgba(255, 255, 255, 0.87);
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  /* color: #646cff; */
+  text-decoration: none;
+  transition: border-bottom 0.25s;
 }
 a:hover {
-  color: #535bf2;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.87);
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 95vh;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding: 0.67em 0;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 1em;
+
 }
 
 button {
@@ -52,17 +82,4 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }
