@@ -5,27 +5,32 @@ import Contacts from "../Pages/Contact/Contact";
 import NavbarLayout from "../Components/Navbar/NavbarLayout";
 import Skills from "../Pages/Skills/Skills";
 
-export const RouterConfig = createBrowserRouter([
+export const RouterConfig = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <NavbarLayout />,
+      children: [
+        {
+          path: "/",
+          element: <Introduction />,
+        },
+        {
+          path: "/experiences",
+          element: <Experiences />,
+        },
+        {
+          path: "/contact",
+          element: <Contacts />,
+        },
+        {
+          path: "/skills",
+          element: <Skills />,
+        },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <NavbarLayout />,
-    children: [
-      {
-        path: "/",
-        element: <Introduction />,
-      },
-      {
-        path: "/experiences",
-        element: <Experiences />,
-      },
-      {
-        path: "/contact",
-        element: <Contacts />,
-      },
-      {
-        path: "/skills",
-        element: <Skills/>,
-      },
-    ],
-  },
-]);
+    basename: "/portfolio",
+  }
+);
