@@ -15,7 +15,7 @@ export default function Introduction() {
         <h2>{thisPageContent.h2}</h2>
         <div className='pagecontent_horizontal_card'>
           <div className='pagecontent_horizontal_card_imagecontainer'>
-            <img src="portfolio_profile.png" alt={thisPageContent.img_alt_text}/>
+            <img src={`${import.meta.env.BASE_URL}/portfolio_profile.png`} alt={thisPageContent.img_alt_text}/>
           </div>
           <div className='pagecontent_horizontal_card_textcontainer'>
             {
