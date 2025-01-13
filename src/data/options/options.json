@@ -3,6 +3,7 @@
         "version": "1.0",
         "defaultLang": "FR",
         "langOptions": ["GB", "FR", "HU"],
+        "repository": "https://github.com/simon-attila-fr/portfolio",
         "link_social": {
             "linkedin": "https://www.linkedin.com/in/attila-simon-237242162/"
         },

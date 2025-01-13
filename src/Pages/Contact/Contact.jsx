@@ -21,6 +21,7 @@ export default function Contacts() {
                   iconName={profile.logo}
                   fill="var(--dark-color-100)"
                   size="xxl"
+                  title={profile.img_alt_text}
                 />
               </a>
               <p>{profile.text}</p>

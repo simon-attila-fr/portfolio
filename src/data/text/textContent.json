@@ -33,7 +33,8 @@
                     "Bienvenu sur mon portfolio ! Je m'appelle Attila, je suis développeur web full-stack, traducteur et critique littéraire.",
                     "Le développement web et la programmation occupe une place importante dans ma vie professionnelle depuis 02/2022. Je maîtrise les langages de programmation JavaScript et SQL.",
                     "Ce que j'aime dans le développement, c'est la variété des compétences et des activités : du graphisme à la conception, jusqu'au codage et à l'interaction avec les professionnels d'autres métiers. C'est vraiment passionnant. De plus, je peux profiter de mes expériences passées : j'ai fait de la relecture en tant que traducteur et country manager, ce qui est utile pour les revues de code. Grâce à mon parcours universitaire, je suis capable de traiter des textes complexes, comme des documentations. Mon expérience en écriture m'a permis de comprendre l'importance de la reécriture, ce qui se traduit par le refactoring dans le développement."
-                ]
+                ],
+                "img_alt_text": "Une image du style bande-dessiné d'une personnage masculin. La personnage se tienne devant un paysage dramatique et minimaliste. L'arrière-plan présente un ciel rouge au coucher du soleil rouge avec des silhouettes noires de montagnes. Le style artistique incorpore des contrastes élevés."
             },
             "GB": {
                 "h1": "Introduction",
@@ -42,15 +43,18 @@
                     "Welcome to my portfolio site! My name is Attila and I'm a full-stack web developer, literary translator- and critic.",
                     "I've been into web development and programming since the february of 2022. My languages of predilection are JavaScript and SQL.",
                     "What I enjoy the most about development is the variety of the skills and the activities: from graphics and design to coding and interaction with professionals in other fields. It's truly amazing! Moreover, I can rely on my precedent professional experiences: as a translator and country manager, I used to do proofreading, which is useful for code reviews. Thanks to my academic background, I'm able to understand complicated texts, such as documentation. My experience with writing taught me the importance of rewriting, which translates into refactoring in development."
-                ]
+                ],
+                "img_alt_text": "A cartoon-style depiction of a male character. The character stands in front of a dramatic, minimalistic landscape. The background features a red sunset sky with bold silhouettes of jagged black mountains. The artistic style incorporates high-contrast highlights."
             },
             "HU": {
                 "h1": "Bemutatkozás",
                 "h2": "Szia! :)",
                 "p": [
                     "Üdvözöllek a portfóliómon! Attila vagyok, full-stack webfejlesztő, fordító és irodalomkritikus.",
-                    "2022 februárja óta foglalkozom webfejlesztéssel és programozással. Legjobban a JavaScript és az SQL nyelveket ismerem."
-                ]
+                    "2022 februárja óta foglalkozom webfejlesztéssel és programozással. Legjobban a JavaScript és az SQL nyelveket ismerem.",
+                    "A webfejlesztésben leginkább azt szeretem, hogy mennyire változatos mind a szükséges készségeket, mind a tevékenységeket tekintve: a webdizájntól a kódoláson át a más szakmákkal való érintkezésig sokszínű a paletta. Ráadásul kamatoztathatom az eddig megszerzett tapasztalataimat: fordító- és country managerként jártas vagyok a kontrollforításban, ami hasznos a code review-k során. Egyetemi tanulmányaimnak köszönhetően összetett szövegekkel is megbirkózom - ilyen például egy dokumentáció. A szövegírással szerzett tapasztalaimból tudom, hogy nem mindig sikerül elsőre megírni azt, amit szerettem volna - a webfejlesztésben ez a refactoring fontosságának megértéséhez segített hozzá."
+                ],
+                "img_alt_text": "Egy férfi rajzfilszerű ábrázolása. A karakter drámai, minimalista háttér előtt áll. A háttér a lenyugvó naptól vöröses égboltból és hegyek darabos, fekete körvonalaiból áll. A kép erős kontrasztokkal dolgozik."
             }
         },
         "experiences": {
@@ -161,6 +165,7 @@
                     {
                         "logo": "linkedin",
                         "name": "linkedin",
+                        "img_alt_text": "Le logo cliquable de linkedIn.",
                         "text": "N'hésitez pas à me contacter via linkedIn."
                     }
                 ]
@@ -171,6 +176,7 @@
                     {
                         "logo": "linkedin",
                         "name": "linkedin",
+                        "img_alt_text": "Clickable logo of linkedIn.",
                         "text": "Feel free to reach out in linkedIn."
                     }
                 ]
@@ -181,6 +187,7 @@
                     {
                         "logo": "linkedin",
                         "name": "linkedin",
+                        "img_alt_text": "A linkedIn kattintható logója.",
                         "text": "Írj bátran a linkedIn-en, örömmel veszek minden megkeresést!"
                     }
                 ]
@@ -195,12 +202,14 @@
                     {
                         "logo": "codingame",
                         "name": "codingame",
-                        "text": "Mon profile sur codingame"
+                        "text": "Mon profile sur codingame",
+                        "img_alt_text": "Logo cliquable de codingame."
                     },
                     {
                         "logo": "codewars",
                         "name": "codewars",
-                        "text": "Mon profile sur codewars"
+                        "text": "Mon profile sur codewars",
+                        "img_alt_text": "Logo cliquable de codewars."
                     }
                 ]
             },
@@ -212,12 +221,14 @@
                     {
                         "logo": "codingame",
                         "name": "codingame",
-                        "text": "My profile on codingame"
+                        "text": "My profile on codingame",
+                        "img_alt_text": "Clickable logo of codingame."
                     },
                     {
                         "logo": "codewars",
                         "name": "codewars",
-                        "text": "My profile on codewars"
+                        "text": "My profile on codewars",
+                        "img_alt_text": "Clickable logo of codewars."
                     }
                 ]
             },
@@ -229,12 +240,14 @@
                     {
                         "logo": "codingame",
                         "name": "codingame",
-                        "text": "Profilom a codingame-en"
+                        "text": "Profilom a codingame-en",
+                        "img_alt_text": "A codingame kattintható logója."
                     },
                     {
                         "logo": "codewars",
                         "name": "codewars",
-                        "text": "Profilom a codewars-on"
+                        "text": "Profilom a codewars-on",
+                        "img_alt_text": "A codewars kattintható logója."
                     }
                 ]
             }
@@ -244,21 +257,39 @@
                 "copyright": "© Attila Simon",
                 "linkedin": {
                     "logo": "linkedin",
-                    "name": "linkedin"
+                    "name": "linkedin",
+                    "img_alt_text": "Le logo cliquable de linkedIn."
+                },
+                "github": {
+                    "logo": "github",
+                    "name": "GitHub",
+                    "img_alt_text": "Le logo cliquable de GitHub."
                 }
             }, 
             "GB": {
                 "copyright": "© Attila Simon",
                 "linkedin": {
                     "logo": "linkedin",
-                    "name": "linkedin"
+                    "name": "linkedin",
+                    "img_alt_text": "Clickable logo of linkedIn."
+                },
+                "github": {
+                    "logo": "github",
+                    "name": "GitHub",
+                    "img_alt_text": "Clickable logo of GitHub."
                 }
             },
             "HU": {
                 "copyright": "© Simon Attila",
                 "linkedin": {
                     "logo": "linkedin",
-                    "name": "linkedin"
+                    "name": "linkedin",
+                    "img_alt_text": "A linkedIn kattintható logója."
+                },
+                "github": {
+                    "logo": "github",
+                    "name": "GitHub",
+                    "img_alt_text": "A GitHub kattintható logója."
                 }
             }
             

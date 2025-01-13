@@ -8,12 +8,14 @@ export default function Introduction() {
     const pageName = "introduction";
     const thisPageContent = text.textContent[pageName][userLanguage];
 
+    console.log(thisPageContent.img_alt_text)
+
   return (
       <PageBody title={thisPageContent.h1}>
         <h2>{thisPageContent.h2}</h2>
         <div className='pagecontent_horizontal_card'>
           <div className='pagecontent_horizontal_card_imagecontainer'>
-            <img src="portfolio_profile.png"/>
+            <img src="portfolio_profile.png" alt={thisPageContent.img_alt_text}/>
           </div>
           <div className='pagecontent_horizontal_card_textcontainer'>
             {

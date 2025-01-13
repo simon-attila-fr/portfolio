@@ -135,7 +135,8 @@ export default function Icon({
   iconName,
   size = "medium",
   fill = "black",
-  onClick,
+  title = "This is an svg image", // TODO: i18n
+  onClick = () => {},
 }) {
   const icon = iconList[iconName] || <></>;
   const _size = sizeList[size];
@@ -148,6 +149,8 @@ export default function Icon({
         viewBox="0 0 24 24"
         fill={fill}
         onClick={onClick}
+        role="img"
+        title={title}
       >
         {icon}
       </svg>
