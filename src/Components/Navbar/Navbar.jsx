@@ -18,7 +18,7 @@ export default function Navbar() {
         <ul>
           <li>
             <Icon iconName="person" fill="var(--dark-color-100)"/>
-            <Link to="/portfolio">
+            <Link to="/">
               {thisElementContent.introduction}
             </Link>
           </li>

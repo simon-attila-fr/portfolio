@@ -8,7 +8,7 @@ import { UserLanguageProvider } from "./Contexts/LanguageContext.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <UserLanguageProvider>
-      <RouterProvider router={RouterConfig} />
+      <RouterProvider basename="/portfolio" router={RouterConfig} />
     </UserLanguageProvider>
   </StrictMode>
 );
