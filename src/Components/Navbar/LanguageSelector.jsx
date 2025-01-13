@@ -6,18 +6,17 @@ import text from "../../data/text/textContent.json";
 export default function LanguageSelector() {
   const componentName = "LanguageSelector";
   const { userLanguage, setUserLanguage } = useContext(UserLanguageContext);
+  const defaultLanguage = text.textContent[componentName][userLanguage];
 
   function handleLanguageSelection(e) {
     setUserLanguage(e.target.value);
   }
 
-  console.log(userLanguage);
-
   return (
     <div>
-      <select defaultValue={text.textContent[componentName][userLanguage]} name="language-selector" onChange={handleLanguageSelection}>
+      <select defaultValue={defaultLanguage} name="language-selector" onChange={handleLanguageSelection}>
         {pageOptions.options.langOptions
-        .toSpliced(0, 0, text.textContent[componentName][userLanguage])
+        .toSpliced(0, 0, defaultLanguage)
         .map((o, index) => {
           // TODO: flags with custom dropdown
           if (index === 0) {

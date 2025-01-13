@@ -13,7 +13,7 @@ export default function Introduction() {
         <h2>{thisPageContent.h2}</h2>
         <div className='pagecontent_horizontal_card'>
           <div className='pagecontent_horizontal_card_imagecontainer'>
-            <img src="/portfolio_profile.png"/>
+            <img src="portfolio_profile.png"/>
           </div>
           <div className='pagecontent_horizontal_card_textcontainer'>
             {

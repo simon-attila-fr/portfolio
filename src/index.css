@@ -9,9 +9,7 @@
   --dark-background-color-600: #181818;
 
   color-scheme: light dark;
-  /* color: rgba(255, 255, 255, 0.87); */
   color: var(--dark-color-100);
-  /* background-color: #242424; */
   background-image: url("/space.jpg");
 
   font-synthesis: none;
@@ -33,7 +31,6 @@
 a {
   color: rgba(255, 255, 255, 0.87);
   font-weight: 500;
-  /* color: #646cff; */
   text-decoration: none;
   transition: border-bottom 0.25s;
 }

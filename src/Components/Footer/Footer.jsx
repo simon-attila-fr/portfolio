@@ -10,8 +10,6 @@ export default function Footer() {
     const componentName = "footer";
     const thisTextContent = texts.textContent[componentName];
 
-    console.log(thisTextContent)
-
     return (
         <div className="footer_container">
             <p>{`version ${pageOptions.options.version} | `}</p>
