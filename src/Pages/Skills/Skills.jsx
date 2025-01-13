@@ -43,7 +43,7 @@ export default function Skills() {
       </div>
       <div>
         <h2>{thisPageContent.profiles_title}</h2>
-        <p>{thisPageContent.profiles_description}</p>
+        <p style={{ textAlign: "center" }}>{thisPageContent.profiles_description}</p>
         <div className="skillcards_container">
           {thisPageContent.profiles.map((profile, index) => {
             return (
