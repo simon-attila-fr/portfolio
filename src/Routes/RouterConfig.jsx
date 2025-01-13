@@ -7,11 +7,11 @@ import Skills from "../Pages/Skills/Skills";
 
 export const RouterConfig = createBrowserRouter([
   {
-    path: "/",
+    path: "/portfolio",
     element: <NavbarLayout />,
     children: [
       {
-        path: "/",
+        path: "/portfolio",
         element: <Introduction />,
       },
       {
