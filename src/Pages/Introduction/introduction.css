@@ -1,10 +1,4 @@
-.page_body_container {
-    margin: 0 10%;
-    min-height: 91vh;
-    background-color: var(--dark-background-color);
-}
-
-/* .pagecontent_horizontal_card {
+.pagecontent_horizontal_card {
     display: flex;
 }
 
@@ -21,4 +15,12 @@
 .pagecontent_horizontal_card_textcontainer {
     flex: 1;
     padding: 0 var(--spacing-900);
-} */
+}
+
+@media only screen and (max-width: 600px) {
+    .pagecontent_horizontal_card {
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+}

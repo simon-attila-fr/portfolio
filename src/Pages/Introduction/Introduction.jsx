@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import UserLanguageContext from '../../Contexts/LanguageContext';
 import text from '../../data/text/textContent.json';
 import PageBody from '../../Components/PageBody/PageBody';
+import './introduction.css';
 
 export default function Introduction() {
   const { userLanguage } = useContext(UserLanguageContext);
