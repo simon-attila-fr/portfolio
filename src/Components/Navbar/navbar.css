@@ -4,6 +4,14 @@
     background-color: #242424;
 }
 
+.portfolio_burgermenu_button {
+    display: none;
+}
+
+.portfolio_burgermenu_close {
+    display: none;
+}
+
 .navbar_container div {
     flex: 0 10%;
     max-width: 10%;
@@ -28,4 +36,66 @@
 .navbar_menu_container ul li {
     display: flex;
     gap: var(--spacing-300)
+}
+
+.portfolio_language_selector_container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+    .navbar_container {
+        height: 10vh;
+        max-height: none;
+    }
+
+    /* .navbar_container div, */
+    .navbar_container nav {
+        display: none;
+    } 
+    
+    .navbar_container .show_burgermenu {
+        min-width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #242424;
+        position: absolute;
+        top: 10vh;
+    }
+
+    .navbar_container nav {
+        flex: none;
+    }
+
+    .navbar_menu_container ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio_burgermenu_button {
+        display: block;
+        position: absolute;
+        top: var(--spacing-600);
+        right: var(--spacing-600);
+        z-index: 11;
+    }
+
+    .portfolio_language_selector_container {
+        position: absolute;
+        top: var(--spacing-600);
+        left: var(--spacing-600);
+    }
+
+    /* .portfolio_burgermenu_close {
+        display: block;
+        position: absolute;
+        top: var(--spacing-600);
+        right: var(--spacing-600);
+        z-index: 11;
+    } */
 }

@@ -41,7 +41,7 @@ export default function Skills() {
           );
         })}
       </div>
-      <div>
+      <div className="portfolio_skills_autonomous_learning_profiles">
         <h2>{thisPageContent.profiles_title}</h2>
         <p style={{ textAlign: "center" }}>{thisPageContent.profiles_description}</p>
         <div className="skillcards_container">

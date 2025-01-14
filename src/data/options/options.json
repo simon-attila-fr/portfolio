@@ -156,9 +156,9 @@
             "11": {
                 "skill_id": "11",
                 "skill_name": {
-                    "GB": "Curiosity and taste for learning",
-                    "FR": "Curiosité et goût pour l'apprentissage",
-                    "HU": "Kíváncsiság és tanulni vágyás"
+                    "GB": "Curiosity, taste for learning",
+                    "FR": "Curiosité, goût pour l'apprentissage",
+                    "HU": "Kíváncsiság, tanulni vágyás"
                 },
                 "skill_type": "3"
             }

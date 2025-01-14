@@ -1,8 +1,14 @@
 .footer_container {
-    /* background-color: var(--dark-background-color-600); */
     background-color: transparent;
     display: flex;
     justify-content: center;
     padding: var(--spacing-900) 0;
     gap: var(--spacing-400);
+}
+
+@media only screen and (max-width: 600px) {
+    .footer_container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
