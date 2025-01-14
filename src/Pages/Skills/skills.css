@@ -7,10 +7,9 @@
     width: 50%;
 }
 
-.skillcards_container div ul li {
+/* .skillcards_container div ul li {
     margin: 0 auto;
-    text-align: center;
-}
+} */
 
 .skillcards_container div:hover{
     box-shadow: 0 8px 64px -8px hsla(0,0%,100%,.3),0 8px 16px -8px hsla(0,0%,100%,.3);
@@ -41,8 +40,9 @@
     }
 
     .skillcards_container div ul li {
-        /* display: flex; */
-        max-width: 80%
+        max-width: 80%;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .portfolio_skills_autonomous_learning_profiles {
