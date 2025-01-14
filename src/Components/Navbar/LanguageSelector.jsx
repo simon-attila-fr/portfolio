@@ -2,6 +2,7 @@ import { useContext } from "react";
 import UserLanguageContext from "../../Contexts/LanguageContext";
 import pageOptions from "../../data/options/options.json";
 import text from "../../data/text/textContent.json";
+import Icon from "../Icon/Icon";
 
 export default function LanguageSelector() {
   const componentName = "LanguageSelector";
@@ -13,8 +14,9 @@ export default function LanguageSelector() {
   }
 
   return (
-    <div>
-      <select defaultValue={defaultLanguage} name="language-selector" onChange={handleLanguageSelection}>
+    <div className="portfolio_language_selector_container">
+      <Icon key="language-selector_icon" iconName="translate" fill="var(--dark-color-100)"/>
+      <select key="language-selector defaultValue={defaultLanguage}" name="language-selector" onChange={handleLanguageSelection}>
         {pageOptions.options.langOptions
         .toSpliced(0, 0, defaultLanguage)
         .map((o, index) => {
