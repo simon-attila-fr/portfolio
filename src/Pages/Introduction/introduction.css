@@ -23,4 +23,9 @@
         align-items: center;
         text-align: justify;
     }
+
+    .pagecontent_horizontal_card_textcontainer {
+        flex: 1;
+        padding: 0 var(--spacing-400);
+    }
 }
