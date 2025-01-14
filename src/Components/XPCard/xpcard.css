@@ -5,3 +5,21 @@
 .xpcard_container div {
     width: 50%;
 }
+
+@media only screen and (max-width: 600px) {
+    .xpcard_container {
+        flex-direction: column;
+    }
+
+    .xpcard_container div {
+        width: 100%;
+    }
+    
+    .xpcard_head {
+        text-align: center;
+    }
+
+    .xpcard_body {
+        text-align: justify;
+    }
+}
