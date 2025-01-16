@@ -197,18 +197,18 @@
             "FR": {
                 "h1": "Compétences",
                 "profiles_title": "Apprendre en autonomie",
-                "profiles_description": "J'apprends et je m'entraîne en autonomie sur des sites dédiés pour approfindir mes compétences existants et pour en acquérir de nouvelles.",
+                "profiles_description": "J'apprends et je m'entraîne en autonomie sur des sites dédiés pour approfondir mes compétences existants et pour en acquérir de nouvelles.",
                 "profiles": [
                     {
                         "logo": "codingame",
                         "name": "codingame",
-                        "text": "Mon profile sur codingame",
+                        "text": "Mon profil sur codingame",
                         "img_alt_text": "Logo cliquable de codingame."
                     },
                     {
                         "logo": "codewars",
                         "name": "codewars",
-                        "text": "Mon profile sur codewars",
+                        "text": "Mon profil sur codewars",
                         "img_alt_text": "Logo cliquable de codewars."
                     }
                 ]
