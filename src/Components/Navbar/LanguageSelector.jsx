@@ -7,7 +7,8 @@ import Icon from "../Icon/Icon";
 export default function LanguageSelector() {
   const componentName = "LanguageSelector";
   const { userLanguage, setUserLanguage } = useContext(UserLanguageContext);
-  const defaultLanguage = text.textContent[componentName][userLanguage];
+  const placeholder = text.textContent[componentName][userLanguage];
+  const defaultLanguage = pageOptions.options.defaultLang;
 
   function handleLanguageSelection(e) {
     setUserLanguage(e.target.value);
@@ -16,9 +17,9 @@ export default function LanguageSelector() {
   return (
     <div className="portfolio_language_selector_container">
       <Icon key="language-selector_icon" iconName="translate" fill="var(--dark-color-100)"/>
-      <select key="language-selector defaultValue={defaultLanguage}" name="language-selector" onChange={handleLanguageSelection}>
+      <select key="language-selector" defaultValue={defaultLanguage} name="language-selector" onChange={handleLanguageSelection}>
         {pageOptions.options.langOptions
-        .toSpliced(0, 0, defaultLanguage)
+        .toSpliced(0, 0, placeholder)
         .map((o, index) => {
           // TODO: flags with custom dropdown
           if (index === 0) {
