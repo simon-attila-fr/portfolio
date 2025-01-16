@@ -1,11 +1,11 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import Introduction from "../Pages/Introduction/Introduction";
 import Experiences from "../Pages/Experiences/Experiences";
 import Contacts from "../Pages/Contact/Contact";
 import NavbarLayout from "../Components/Navbar/NavbarLayout";
 import Skills from "../Pages/Skills/Skills";
 
-export const RouterConfig = createBrowserRouter(
+export const RouterConfig = createHashRouter(
   [
     {
       path: "/",
@@ -29,8 +29,5 @@ export const RouterConfig = createBrowserRouter(
         },
       ],
     },
-  ],
-  {
-    basename: "/portfolio",
-  }
+  ]
 );
